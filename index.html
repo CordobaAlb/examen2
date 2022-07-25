@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<!--=== Coding by CodingLab | www.codinglabweb.com === -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta data-name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!--===== Boxicons CSS =====-->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Image Gallery with Search Box</title> 
+</head>
+<body>
+    <div class="container">
+        <div class="search-box">
+            <i class="bx bx-search"></i>
+            <input type="text" placeholder="Search a movie">
+        </div>
+
+        <div class="images">
+            <div class="image-box" data-name="forrest gump">
+              
+                <img src="images/forrest.jpg" alt="">
+                <h6>Forrest Gump</h6>
+            </div>
+            <div class="image-box" data-name="joker">
+                <img src="images/joker.jpg" alt="">
+                <h6>joker</h6>
+            </div>
+            <div class="image-box" data-name="minions">
+                <img src="images/mn1.jpg" alt="">
+                <h6>Los Minions 1</h6>
+            </div>
+            <div class="image-box" data-name="minions">
+                <img src="images/mn2.jpg" alt="">
+                <h6>Los Minions 2</h6>
+            </div>
+            <div class="image-box" data-name="coco">
+                <img src="images/coco.jpg" alt="">
+                <h6>Coco</h6>
+            </div>
+            <div class="image-box" data-name="troya">
+                <img src="images/troya.jpg" alt="">
+                <h6>troya</h6>
+            </div>
+            <div class="image-box" data-name="la mascara">
+                <img src="images/mask.jpg" alt="">
+                <h6>La mascara </h6>
+            </div>
+            <div class="image-box" data-name="simpson">
+                <img src="images/simp.jpg" alt="">
+                <h6>Los simpson</h6>
+            </div>
+            <div class="image-box" data-name="elvis">
+                <img src="images/elv.jpg" alt="">
+                <h6>Elvis</h6>
+            </div>
+            <div class="image-box" data-name="morbius">
+                <img src="images/morbi.jpg" alt="">
+                <h6>Morbius</h6>
+            </div>
+            <div class="image-box" data-name="starwars">
+                <img src="images/starwars1.jpg" alt="">
+                <h6>starwars 1</h6>
+        </div>
+       
+            <div class="image-box" data-name="starwars">
+                <img src="images/starwars2.jpg" alt="">
+                <h6>starwars 2</h6>
+
+        </div>
+        <div class="image-box" data-name="starwars">
+            <img src="images/starwars3.jpg" alt="">
+            <h6>starwars 3</h6>
+
+    </div>
+    <div class="image-box" data-name="starwars">
+        <img src="images/starwars4.jpg" alt="">
+        <h6>starwars 4</h6>
+
+</div>
+<div class="image-box" data-name="starwars">
+    <img src="images/starwars5.jpg" alt="">
+    <h6>starwars 5</h6>
+
+</div>
+<div class="image-box" data-name="starwars">
+    <img src="images/starwars6.jpg" alt="">
+    <h6>starwars 6</h6>
+
+</div>
+<div class="image-box" data-name="starwars">
+    <img src="images/starwars7.jpg" alt="">
+    <h6>starwars 7</h6>
+
+</div>
+<div class="image-box" data-name="starwars">
+    <img src="images/starwars8.jpg" alt="">
+    <h6>starwars 8</h6>
+
+</div>
+<div class="image-box" data-name="starwars">
+    <img src="images/starwars9.jpg" alt="">
+    <h6>starwars 9</h6>
+
+</div>
+<div class="image-box" data-name="annabelle">
+    <img src="images/abl1.jpg" alt="">
+    <h6>Annabelle</h6>
+
+</div>
+<div class="image-box" data-name="annabelle">
+    <img src="images/abl2.jpg" alt="">
+    <h6>Annabelle 2</h6>
+
+</div>
+<div class="image-box" data-name="annabelle">
+    <img src="images/abl3.jpg" alt="">
+    <h6>Annabelle 3</h6>
+
+</div>
+<div class="image-box" data-name="avengers">
+    <img src="images/av1.jpg" alt="">
+    <h6>avengers 1</h6>
+
+</div>
+<div class="image-box" data-name="avengers">
+    <img src="images/av2.jpg" alt="">
+    <h6>Avengers 2</h6>
+
+</div>
+<div class="image-box" data-name="avengers">
+    <img src="images/av3.jpg" alt="">
+    <h6>Avengers 3</h6>
+
+</div>
+<div class="image-box" data-name="avengers">
+    <img src="images/av4.jpg" alt="">
+    <h6>Avengers 4</h6>
+
+</div>
+<div class="image-box" data-name="batman">
+    <img src="images/btm1.jpg" alt="">
+    <h6>Batman 1</h6>
+
+</div>
+<div class="image-box" data-name="batman">
+    <img src="images/btm2.jpg" alt="">
+    <h6>Batman 2 </h6>
+
+</div>
+<div class="image-box" data-name="batman">
+    <img src="images/btm3.jpg" alt="">
+    <h6>Batman 3</h6>
+
+</div>
+<div class="image-box" data-name="duro de matar">
+    <img src="images/dm1.jpg" alt="">
+    <h6>Duro de Matar 1</h6>
+
+</div>
+<div class="image-box" data-name="duro de matar">
+    <img src="images/dm2.jpg" alt="">
+    <h6>Duro de Matar 2</h6>
+
+</div>
+<div class="image-box" data-name="duro de matar">
+    <img src="images/dm3.jpg" alt="">
+    <h6>Duro de Matar 3</h6>
+
+</div>
+<div class="image-box" data-name="duro de matar">
+    <img src="images/dm4.jpg" alt="">
+    <h6>Duro de Matar 4</h6>
+
+</div>
+<div class="image-box" data-name="harry potter">
+    <img src="images/harry1.jpg" alt="">
+    <h6>Harry Potter 1</h6>
+
+</div>
+<div class="image-box" data-name="harry potter">
+    <img src="images/harry2.jpg" alt="">
+    <h6>Harry Potter 2</h6>
+
+</div>
+<div class="image-box" data-name="harry potter">
+    <img src="images/harry3.jpg" alt="">
+    <h6>Harry Potter 3</h6>
+
+</div>
+<div class="image-box" data-name="harry potter">
+    <img src="images/harry4.jpg" alt="">
+    <h6>Harry Potter 4</h6>
+
+</div>
+<div class="image-box" data-name="harry potter">
+    <img src="images/harry5.jpg" alt="">
+    <h6>Harry Potter 5</h6>
+
+</div>
+<div class="image-box" data-name="harry potter">
+    <img src="images/harry6.jpg" alt="">
+    <h6>Harry Potter 6</h6>
+
+</div>
+<div class="image-box" data-name="harry potter">
+    <img src="images/harry7.jpg" alt="">
+    <h6>Harry Potter 7</h6>
+
+</div>
+<div class="image-box" data-name="sonic">
+    <img src="images/sonic1.jpg" alt="">
+    <h6>Sonic 1</h6>
+
+</div>
+<div class="image-box" data-name="sonic">
+    <img src="images/sonic2.jpg" alt="">
+    <h6>Sonic 2</h6>
+
+</div>
+<div class="image-box" data-name="spiderman">
+    <img src="images/sp1.jpg" alt="">
+    <h6>Spiderman 1</h6>
+
+</div><div class="image-box" data-name="spiderman">
+    <img src="images/sp2.jpg" alt="">
+    <h6>Spiderman 2</h6>
+
+</div>
+<div class="image-box" data-name="spiderman">
+    <img src="images/sp3.jpg" alt="">
+    <h6>Spideraman 3</h6>
+
+</div>
+<div class="image-box" data-name="aladin">
+    <img src="images/aladin.jpg" alt="">
+    <h6>Aladdin</h6>
+
+</div>
+<div class="image-box" data-name="la bella y la bestia">
+    <img src="images/bella.jpg" alt="">
+    <h6>La Bella Y La Bestia</h6>
+
+</div>
+<div class="image-box" data-name="bichos">
+    <img src="images/bichos.jpg" alt="">
+    <h6>Bichos</h6>
+
+</div>
+<div class="image-box" data-name="cenicienta">
+    <img src="images/ceni.jpg" alt="">
+    <h6>La cenicienta</h6>
+
+</div>
+<div class="image-box" data-name="intensamente">
+    <img src="images/inten.jpg" alt="">
+    <h6>Intensamente</h6>
+
+</div>
+<div class="image-box" data-name="jurassic park">
+    <img src="images/jsp1.jpg" alt="">
+    <h6>Jurassic Park 1</h6>
+
+</div>
+<div class="image-box" data-name="jurassic park">
+    <img src="images/jsp2.jpg" alt="">
+    <h6>Jurassic Park 2</h6>
+
+</div>
+<div class="image-box" data-name="jurassic park">
+    <img src="images/jsp3.jpg" alt="">
+    <h6>Jurassci Park 3</h6>
+
+</div>
+<div class="image-box" data-name="jurassic park">
+    <img src="images/jsp4.jpg"alt="">
+    <h6>Jurassic Park 4</h6>
+
+</div>
+<div class="image-box" data-name="jurassic park">
+    <img src="images/jsp5.jpg" alt="">
+    <h6>Jurassic Park 5</h6>
+
+</div>
+<div class="image-box" data-name="luca">
+    <img src="images/luca.jpg" alt="">
+    <h6>Luca</h6>
+
+</div><div class="image-box" data-name="hombres de negro">
+    <img src="images/mib1.jpg" alt="">
+    <h6>Hombres de Negro 1</h6>
+
+</div>
+<div class="image-box" data-name="hombres de negro">
+    <img src="images/mib2.jpg" alt="">
+    <h6>Hombres de Negro 2</h6>
+
+</div>
+<div class="image-box" data-name="hombres de negro">
+    <img src="images/mib3.jpg" alt="">
+    <h6>Hombres de Negro 3</h6>
+
+</div>
+<div class="image-box" data-name="hombres de negro">
+    <img src="images/mib4.jpg" alt="">
+    <h6>Hombres de Negro 4</h6>
+
+</div><div class="image-box" data-name="monster inc">
+    <img src="images/mu1.jpg" alt="">
+    <h6>Monster Inc</h6>
+
+</div>
+<div class="image-box" data-name="monster inc">
+    <img src="images/mu2.jpg" alt="">
+    <h6>Monster Inc 2</h6>
+
+</div>
+<div class="image-box" data-name="mulan">
+    <img src="images/mulan2.jpg" alt="">
+    <h6>Mulan 2</h6>
+</div>
+<div class="image-box" data-name="mulan">
+    <img src="images/mulan.jpg" alt="">
+    <h6>Mulan</h6>
+</div>
+<div class="image-box" data-name="rocky">
+    <img src="images/rck1.jpg" alt="">
+    <h6>rocky 1</h6>
+</div>
+<div class="image-box" data-name="rocky">
+    <img src="images/rck2.jpg" alt="">
+    <h6>Rocky 2</h6>
+</div>
+<div class="image-box" data-name="rocky">
+    <img src="images/rck3.jpg" alt="">
+    <h6>Rocky 3</h6>
+</div>
+<div class="image-box" data-name="rocky">
+    <img src="images/rck4.jpg" alt="">
+    <h6>Rocky 4</h6>
+</div>
+<div class="image-box" data-name="rocky">
+    <img src="images/rck5.jpg" alt="">
+    <h6>Rocky 5</h6>
+</div>
+<div class="image-box" data-name="rocky">
+    <img src="images/rck6.jpg" alt="">
+    <h6>Rocky 6</h6>
+</div>
+<div class="image-box" data-name="shrek">
+    <img src="images/srk1.jpg" alt="">
+    <h6>Shrek 1</h6>
+    </div>
+<div class="image-box" data-name="shrek">
+    <img src="images/srk2.jpg" alt="">
+    <h6>Shrek 2</h6>
+    </div>
+<div class="image-box" data-name="shrek">
+    <img src="images/srk3.jpg" alt="">
+    <h6>Shrek 3</h6>
+</div>
+    <div class="image-box" data-name="el señor de los anillos">
+        <img src="images/Sranillo1.jpg" alt="">
+        <h6>el señor de los anillos 1</h6>
+    </div>
+    <div class="image-box" data-name="el señor de los anillos">
+        <img src="images/Sranillo2.jpg" alt="">
+        <h6>el señor de los anillos 2</h6>
+    </div>
+    <div class="image-box" data-name="el señor de los anillos">
+        <img src="images/Sranillo3.jpg" alt="">
+        <h6>el señor de los anillos 3</h6>
+    </div>
+    <div class="image-box" data-name="scream">
+        <img src="images/scr1.jpg" alt="">
+        <h6>Scream 1</h6>
+
+        </div>
+<div class="image-box" data-name="scream">
+    <img src="images/scr2.jpg" alt="">
+    <h6>Scream 2</h6>
+    </div>
+<div class="image-box" data-name="scream">
+    <img src="images/scr3.jpg" alt="">
+    <h6>Scream 3</h6>
+    </div>
+<div class="image-box" data-name="scream">
+    <img src="images/scr4.jpg" alt="">
+    <h6>Scream 4</h6>
+    </div>
+<div class="image-box" data-name="toys story">
+    <img src="images/ty1.jpg" alt="">
+    <h6>Toys Story 1</h6>
+    </div>
+<div class="image-box" data-name="toys story">
+    <img src="images/ty2.jpg" alt="">
+    <h6>Toys Story 2</h6>
+    </div>
+<div class="image-box" data-name="toys story">
+    <img src="images/ty3.jpg" alt="">
+    <h6>Toys Story 3</h6>
+    </div>
+<div class="image-box" data-name="toys story">
+    <img src="images/ty4.jpg" alt="">
+    <h6>Toys Story 4</h6></div>
+    <div class="image-box" data-name="toys story">
+        <img src="images/ty5.jpg" alt="">
+        <h6>Light Year</h6>
+    </div>
+    <div class="image-box" data-name="thor">
+        <img src="images/th1.jpg" alt="">
+        <h6>Thor1</h6>
+    </div>
+    <div class="image-box" data-name="thor">
+        <img src="images/th2.jpg" alt="">
+        <h6>Thor 2</h6>
+
+        </div>
+<div class="image-box" data-name="thor">
+    <img src="images/th3.jpg" alt="">
+    <h6>Thor 3</h6></div>
+    <div class="image-box" data-name="thor">
+        <img src="images/th4.jpg" alt="">
+        <h6>Thor 4</h6>
+    </div>
+    <div class="image-box" data-name="matrix">
+        <img src="images/mtx1.jpg" alt="">
+        <h6>Matrix 1</h6>
+    </div>
+    <div class="image-box" data-name="matrix">
+        <img src="images/mtx2.jpg" alt="">
+        <h6>Matrix 2</h6>
+    </div>
+    <div class="image-box" data-name="matrix">
+        <img src="images/mtx3.jpg" alt="">
+        <h6>Matrix 3</h6>
+    </div>
+<div class="image-box" data-name="deadpool">
+    <img src="images/dead1.jpg" alt="">
+    <h6>Deadpool 1 </h6>
+</div>  
+<div class="image-box" data-name="deadpool">
+    <img src="images/dead2.jpg" alt="">
+    <h6>Deadpool 2</h6>
+</div>
+
+<div class="image-box" data-name="escuadron suicida">
+    <img src="images/suicide1.jpg" alt="">
+    <h6>Escuadron Suicida</h6>
+</div>
+
+<div class="image-box" data-name="escuadron suicida">
+    <img src="images/suicide2.jpg" alt="">
+    <h6>Escuadron Suicida</h6>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
